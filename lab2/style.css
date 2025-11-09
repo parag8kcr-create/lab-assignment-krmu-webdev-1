@@ -7,13 +7,13 @@
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   line-height: 1.6;
-  background-color: rgb(244, 244, 249);  /* #f4f4f9 */
-  color: rgb(52, 73, 94);  /* #34495e */
+  background-color: rgb(244, 244, 249); 
+  color: rgb(52, 73, 94); 
 }
 
 header, footer {
-  background-color: rgb(39, 35, 117);  /* #272375 */
-  color: rgb(255, 255, 255);  /* #ffffff */
+  background-color: rgb(39, 35, 117);  
+  color: rgb(255, 255, 255);  
   padding: 20px 10px;
   text-align: center;
 }
@@ -29,13 +29,13 @@ footer {
 
 nav a {
   margin: 0 15px;
-  color: rgb(255, 255, 255);  /* #ffffff */
+  color: rgb(255, 255, 255); 
   text-decoration: none;
   font-weight: bold;
 }
 
 nav a:hover {
-  color: rgb(8, 8, 9);  /* #080809 */
+  color: rgb(8, 8, 9); 
   text-decoration: none;
 }
 
@@ -46,7 +46,7 @@ section {
 
 h2 {
   margin-bottom: 20px;
-  color: rgb(44, 62, 80);  /* #2c3e50 */
+  color: rgb(44, 62, 80);  
 }
 
 .profile-img {
@@ -98,13 +98,13 @@ form {
   text-align: left;
 }
 
-/* input, textarea {
+input, textarea {
   width: 100%;
   padding: 10px;
   margin-top: 5px;
   border: 1px solid rgb(189, 195, 199);
   border-radius: 5px;
-} */
+}
 
 button, .top-button {
   background-color: rgb(5, 5, 5); 
@@ -112,9 +112,7 @@ button, .top-button {
   padding: 10px 15px;
   border: none;
   border-radius: 5px;
-  cursor: pointer;
   text-decoration: none;
-  display: inline-block;
 }
 
 button:hover, .top-button:hover {
@@ -123,6 +121,7 @@ button:hover, .top-button:hover {
 
 .top-button {
   margin-top: 30px;
+  margin-left:88%;
 }
 
 img {
@@ -132,10 +131,5 @@ img {
 }
 
 #button {
-  display: block;
-  margin: 10px auto;
+ margin-left:50%;
 }
-
-}
-
-
