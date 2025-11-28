@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div id="brand">
+        <h1>FASHIONISTA</h1><br>
+    </div>
+    <nav id="nav">
+        <a href="#">Home</a>
+        <a href="#">Men</a>
+        <a href="#">Women</a>
+        <a href="#">Accessories</a>
+        <a href="#" id="login">Login</a>
+    </nav>
+</header>
+
+<!-- TOP BANNER -->
+<section id="banner">
+    <div id="banner-left">
+        <h2>Shopping Sale is LIVE!</h2>
+        <p>Grab the hottest deals of the season. Limited stock available.</p>
+        <button id="shopNow">Shop Now</button>
+    </div>
+</section>
+
+<div id="flash">❤️ Flash Sale: Extra 20% OFF! Ends in 2 days.</div>
+
+<main id="main">
+    <aside id="filters">
+        <h3>Filters</h3>
+        <form id="f1">
+            <label><input type="checkbox"> Men</label><br>
+            <label><input type="checkbox"> Women</label><br>
+            <label><input type="checkbox"> Accessories</label><br><br>
+
+            <label>Price</label><br>
+            <label><input type="radio" name="price"> Under ₹500</label><br>
+            <label><input type="radio" name="price"> ₹500 - ₹2000</label><br><br>
+
+            <label>Color</label><br>
+            <label><input type="checkbox"> Black</label><br>
+            <label><input type="checkbox"> White</label><br>
+            <label><input type="checkbox"> Blue</label><br>
+        </form>
+    </aside>
+
+    <section id="cards">
+
+        <div id="cats">
+            <div class="cat">Men</div>
+            <div class="cat">Women</div>
+            <div class="cat">Accessories</div>
+        </div>
+
+        <div id="grid">
+
+            <article class="card p1">
+                <h4>Casual Shirt</h4>
+                <p>₹799</p>
+                <button class="add">Add to cart</button>
+            </article>
+
+            <article class="card p2">
+                <h4>Women Dress</h4>
+                <p>₹1199</p>
+                <button class="add">Add to cart</button>
+            </article>
+
+            <article class="card p3">
+                <h4>Canvas Shoes</h4>
+                <p>₹999</p>
+                <button class="add">Add to cart</button>
+            </article>
+
+            <article class="card p4">
+                <h4>Denim Jacket</h4>
+                <p>₹1999</p>
+                <button class="add">Add to cart</button>
+            </article>
+
+        </div>
+    </section>
+</main>
+
+<section id="testi">
+    <div id="testi-inner">
+        <h3>What Our Customers Say</h3>
+
+        <div id="testi-row">
+            <div class="tcard">
+                <div class="tcard-head">
+                    <img src="https://i.pinimg.com/564x/b3/2b/3d/b32b3d9b097426cf427cbc057dc022a7.jpg" alt="avatar">
+                    <div class="tname">
+                        <h3>Virat Kohli</h3>
+                        <h6>Verified Buyer</h6>
+                    </div>
+                </div>
+                <p>"Amazing quality and fast delivery. Exactly as described."</p>
+            </div>
+
+            <div class="tcard">
+                <div class="tcard-head">
+                    <img src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320,q_50/lsci/db/PICTURES/CMS/385800/385819.2.png" alt="avatar">
+                    <div class="tname">
+                        <h3>Rohit Sharma</h3>
+                        <h6>Frequent Shopper</h6>
+                    </div>
+                </div>
+                <p>"Great styles, will shop again. Packaging was very good."</p>
+            </div>
+
+            <div class="tcard">
+                <div class="tcard-head">
+                    <img src="https://documents.bcci.tv/resizedimageskirti/2740_compress.png" alt="avatar">
+                    <div class="tname">
+                        <h3>Sophia L.</h3>
+                        <h6>Happy Customer</h6>
+                    </div>
+                </div>
+                <p>"Customer support was helpful and the return process was smooth."</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Newsletter Black Box -->
+    <div id="newsletter-box">
+        <div id="newsletter-left">
+            <h4>Stay in the Loop!</h4>
+            <p>Sign up for exclusive offers, new arrivals, and more.</p>
+        </div>
+
+        <div id="newsletter-right">
+            <input type="email" id="mail" placeholder="Your email address">
+            <button id="sub">Subscribe</button>
+        </div>
+    </div>
+</section>
+
+<footer id="footer">
+    <div class="foot-col">
+        <h5>Account</h5>
+        <p><a href="#">Login</a> | <a href="#">Register</a></p>
+        <p><a href="#">Order History</a></p>
+    </div>
+
+    <div class="foot-col">
+        <h5>Help</h5>
+        <p><a href="#">Shipping</a> | <a href="#">Returns</a></p>
+        <p><a href="#">FAQ</a></p>
+    </div>
+
+    <div class="foot-col">
+        <h5>Policies</h5>
+        <p><a href="#">Privacy Policy</a> | <a href="#">Terms</a></p>
+        <div id="social">
+            <a href="#" class="social-b">f</a>
+            <a href="#" class="social-b">t</a>
+            <a href="#" class="social-b">i</a>
+        </div>
+        <p class="copy">© 2025 Fashionista. All rights reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>
